@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>PlasticMarket | Fabricación de Plásticos y Caucho — Ingeniería Verde</title>
+<meta name="description" content="Fabricamos plástico y caucho a medida: matricería, inyección, extrusión y coextrusión. Únicos en Chile con compuesto antibacterial certificado. Cotiza por WhatsApp.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://plastic-market.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="PlasticMarket">
+<meta property="og:locale" content="es_CL">
+<meta property="og:title" content="PlasticMarket | Plásticos y caucho con Ingeniería Verde">
+<meta property="og:description" content="Matricería, inyección, extrusión y coextrusión. Únicos en Chile con compuesto antibacterial certificado. Import/export CL–EE.UU.">
+<meta property="og:url" content="https://plastic-market.com/">
+<meta property="og:image" content="https://plastic-market.com/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500;600&amp;display=swap" rel="stylesheet">
+<script src="./image-slot.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 116px; }
+  body { font-family: 'IBM Plex Sans', system-ui, sans-serif; color: #1A2420; background: #FBFCFB; -webkit-font-smoothing: antialiased; line-height: 1.55; }
+  a { color: #4E8F30; text-decoration: none; transition: color .18s ease; }
+  a:hover { color: #3E7526; }
+  img { display: block; max-width: 100%; }
+  input, textarea, button, select { font-family: inherit; }
+  @keyframes pmFadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+  @keyframes pmMarquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  @keyframes pmPulse { 0%,100% { box-shadow: 0 0 0 0 rgba(37,211,102,0.5); } 50% { box-shadow: 0 0 0 12px rgba(37,211,102,0); } }
+  ::selection { background: #D8EEC2; }
+  .pm-anim [data-reveal] { opacity: 0; transform: translateY(30px); transition: opacity .75s cubic-bezier(.2,.7,.2,1), transform .75s cubic-bezier(.2,.7,.2,1); }
+  .pm-anim [data-reveal].pm-in { opacity: 1; transform: none; }
+  .pm-anim [data-reveal] image-slot, .pm-anim [data-reveal] img:not([alt=""]) { opacity: 0; transform: scale(0.94); transition: opacity .9s .12s cubic-bezier(.2,.7,.2,1), transform .9s .12s cubic-bezier(.2,.7,.2,1); }
+  .pm-anim [data-reveal].pm-in image-slot, .pm-anim [data-reveal].pm-in img:not([alt=""]) { opacity: 1; transform: none; }
+  [data-track]::-webkit-scrollbar { display: none; }
+  [data-track] { -ms-overflow-style: none; }
+  @media (prefers-reduced-motion: reduce) { .pm-anim [data-reveal] { opacity: 1 !important; transform: none !important; } .pm-anim [data-reveal] image-slot, .pm-anim [data-reveal] img { opacity: 1 !important; transform: none !important; } }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "PlasticMarket",
+  "legalName": "Plastic Market Ltda.",
+  "image": "https://plastic-market.com/og-image.jpg",
+  "url": "https://plastic-market.com/",
+  "telephone": "+56 9 3372 2400",
+  "email": "contacto@plastic-market.com",
+  "priceRange": "$$",
+  "foundingDate": "2000",
+  "description": "Fabricante chileno de productos plásticos y de caucho: matricería, inyección, extrusión y coextrusión, con reciclaje industrial y compuesto antibacterial certificado. Importaciones y exportaciones.",
+  "address": { "@type": "PostalAddress", "addressLocality": "Santiago", "addressCountry": "CL" },
+  "areaServed": ["CL", "US"],
+  "sameAs": ["https://www.instagram.com/plasticmarket_ltda/"],
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "48" },
+  "makesOffer": [
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Matricería y fabricación de moldes" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Inyección de plástico y caucho" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Extrusión" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Coextrusión" } }
+  ]
+}
+</script>
+</helmet>
+
+<div style="overflow-x: hidden;">
+
+<!-- ============ TOP UTILITY BAR ============ -->
+<!-- ============ HEADER ============ -->
+<header style="position: sticky; top: 0; z-index: 50; background: rgba(251,252,251,0.92); backdrop-filter: blur(10px); border-bottom: 1px solid #E3E8E5;">
+  <div style="max-width: 1240px; margin: 0 auto; padding: 0 24px; height: 68px; display: flex; align-items: center; justify-content: space-between; gap: 24px;">
+    <a href="#inicio" aria-label="PlasticMarket — Ideas que venden más" style="display: flex; align-items: center; flex-shrink: 0;">
+      <image-slot id="pm-logo-header" src="assets/pm-logo-header.png" fit="contain" radius="10" placeholder="Arrastra el logo" style="display:block; height:56px; width:82px; background:transparent; transform: translateY({{ logoOffsetY }}px);"></image-slot>
+    </a>
+    <nav aria-label="Navegación principal" style="display: flex; align-items: center; gap: 28px;">
+      <div style="display: flex; gap: 26px; font-size: 15px; font-weight: 500; white-space: nowrap;" data-navlinks="">
+        <a href="#nosotros" style="color: #38443E;">Nosotros</a>
+        <a href="#servicios" style="color: #38443E;">Servicios</a>
+        <a href="#antibacterial" style="color: #38443E;">Antibacterial</a>
+        <a href="#productos" style="color: #38443E;">Productos</a>
+        <a href="#contacto" style="color: #38443E;">Contacto</a>
+      </div>
+      <div style="position: relative;">
+        <button onClick="{{ toggleLangMenu }}" aria-haspopup="true" aria-expanded="{{ langMenuOpen }}" aria-label="Cambiar idioma / Change language" style="display: inline-flex; align-items: center; gap: 7px; background: #fff; border: 1px solid #D5DCD8; border-radius: 100px; padding: 7px 13px; font-weight: 700; font-size: 13px; color: #16305A; cursor: pointer;" style-hover="border-color:#4E8F30;color:#4E8F30;"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20"></path><path d="M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20"></path></svg> {{ langCurrent }} <span aria-hidden="true" style="font-size:9px; opacity:.6;">▼</span></button>
+        <sc-if value="{{ langMenuOpen }}" hint-placeholder-val="{{ false }}">
+          <div style="position: absolute; top: calc(100% + 8px); right: 0; background: #fff; border: 1px solid #E3E8E5; border-radius: 12px; box-shadow: 0 16px 40px -16px rgba(20,32,28,0.35); padding: 6px; min-width: 150px; z-index: 60;">
+            <sc-for list="{{ langOptions }}" as="lo" hint-placeholder-count="2">
+              <button onClick="{{ lo.select }}" style="width: 100%; text-align: left; background: {{ lo.bg }}; border: none; border-radius: 8px; padding: 9px 12px; font-size: 14px; font-weight: 600; color: #16305A; cursor: pointer; display: flex; align-items: center; gap: 9px;" style-hover="background:#EDF5E3;">{{ lo.flag }} {{ lo.label }}</button>
+            </sc-for>
+          </div>
+        </sc-if>
+      </div>
+      <a href="{{ waGeneral }}" target="_blank" rel="noopener" style="background: #25D366; color: #fff; padding: 10px 18px; border-radius: 10px; font-weight: 600; font-size: 14px; display: inline-flex; align-items: center; gap: 7px;" style-hover="background:#1EB456;color:#fff;"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm0 18.15c-1.52 0-3.01-.41-4.3-1.18l-.31-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.35c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.69 8.24-8.23 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.42-.14 0-.31-.02-.47-.02-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.02 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"></path></svg> Cotizar</a>
+      <button onClick="{{ toggleMobile }}" aria-label="Abrir menú" data-mobilebtn="" style="display: none; background: none; border: 1px solid #D5DCD8; border-radius: 9px; width: 42px; height: 42px; font-size: 20px; cursor: pointer; color: #1A2420;">☰</button>
+    </nav>
+  </div>
+  <sc-if value="{{ mobileOpen }}" hint-placeholder-val="{{ false }}">
+    <div style="border-top: 1px solid #E3E8E5; background: #FBFCFB; padding: 12px 24px 20px; display: flex; flex-direction: column; gap: 4px;">
+      <a href="#nosotros" onClick="{{ closeMobile }}" style="padding: 11px 6px; color: #1A2420; font-weight: 500; border-bottom: 1px solid #EEF1EF;">Nosotros</a>
+      <a href="#servicios" onClick="{{ closeMobile }}" style="padding: 11px 6px; color: #1A2420; font-weight: 500; border-bottom: 1px solid #EEF1EF;">Servicios</a>
+      <a href="#antibacterial" onClick="{{ closeMobile }}" style="padding: 11px 6px; color: #1A2420; font-weight: 500; border-bottom: 1px solid #EEF1EF;">Antibacterial</a>
+      <a href="#productos" onClick="{{ closeMobile }}" style="padding: 11px 6px; color: #1A2420; font-weight: 500; border-bottom: 1px solid #EEF1EF;">Productos</a>
+      <a href="#contacto" onClick="{{ closeMobile }}" style="padding: 11px 6px; color: #1A2420; font-weight: 500;">Contacto</a>
+    </div>
+  </sc-if>
+</header>
+
+
+
+<!-- ============ FOOTER + MARCAS ============ -->
+<main>
+
+<!-- ============ HERO VIDEO (sin texto) ============ -->
+<section id="inicio" style="position: relative; width: 100%; aspect-ratio: 2659 / 984; background: #16305A; overflow: hidden;">
+  <div aria-hidden="true" style="position: absolute; inset: 0; background-color: #16305A; display: flex; align-items: center; justify-content: center;">
+    <img src="assets/portada-banner.png" alt="PlasticMarket — Innovamos hoy, creamos un mejor mañana" style="width:100%; height:100%; object-fit: cover; object-position: center;">
+  </div>
+  <video data-hero-video="" autoplay="" loop="" playsinline="" poster="" style="position: absolute; inset: 0; width: 1192px; height: 579px; object-fit: cover; opacity: 0; transition: opacity .5s ease; left: 2px; top: -2px">
+    <source src="portada.mp4" type="video/mp4">
+  </video>
+  <div style="position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(10,20,16,0.15) 0%, rgba(10,20,16,0.05) 45%, rgba(10,20,16,0.7) 100%); left: -346px; top: -104px"></div>
+  <div style="position: absolute; left: 0; right: 0; bottom: 0; padding: 0 24px 48px;">
+    <div style="max-width: 1240px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; align-items: flex-start;">
+      <a href="{{ waGeneral }}" target="_blank" rel="noopener" style="background: #25D366; color: #fff; padding: 9px 16px; border-radius: 10px; font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 13.5px; display: inline-flex; align-items: center; gap: 7px; box-shadow: 0 8px 20px -10px rgba(0,0,0,0.55);" style-hover="background:#1EB456;color:#fff;"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm0 18.15c-1.52 0-3.01-.41-4.3-1.18l-.31-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.35c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.69 8.24-8.23 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.42-.14 0-.31-.02-.47-.02-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.02 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"></path></svg> Cotizar por WhatsApp</a>
+      <a href="#productos" style="background: rgba(255,255,255,0.14); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.4); color: #fff; padding: 9px 16px; border-radius: 10px; font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 13.5px; display: inline-flex; align-items: center; gap: 7px;" style-hover="background:rgba(255,255,255,0.24);color:#fff;">Ver productos →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ QUIÉNES SOMOS ============ -->
+<section id="nosotros" style="max-width: 1240px; margin: 0 auto; padding: 92px 24px 40px;">
+  <div style="display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 60px; align-items: center;" data-herogrid="">
+    <div>
+      <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #4E8F30;">Quiénes somos</span>
+      <h1 style="font-family: 'Archivo', sans-serif; font-weight: 900; font-size: clamp(32px, 4.2vw, 52px); line-height: 1.04; letter-spacing: -0.03em; margin: 14px 0 0; color: #16305A;">Transformamos ideas en soluciones de <span style="color: #4E8F30;">plástico</span> y <span style="color: #4E8F30;">Caucho termoplástico</span>.</h1>
+      <p style="font-size: 18px; color: #4A5852; margin: 20px 0 0; max-width: 560px;">Somos una empresa chilena con más de 25 años de trayectoria, especializada en matricería, inyección, extrusión y coextrusión. Acompañamos a cada cliente desde el diseño hasta la fabricación final, con un fuerte compromiso con la calidad y el medio ambiente.</p>
+      <p style="font-size: 18px; color: #4A5852; margin: 14px 0 0; max-width: 560px;">Expertos en <strong style="color:#1A2420;">Ingeniería Verde</strong>: usamos reciclaje industrial para crear compuestos sostenibles, y somos los únicos en Chile en trabajar con compuesto plástico <strong style="color:#1A2420;">antibacterial certificado</strong>. Operamos también como PlasticMarket LLC en Estados Unidos.</p>
+      <dl style="display: flex; flex-wrap: wrap; align-items: center; gap: 32px; margin-top: 34px;">
+        <div style="display: flex; align-items: center; gap: 13px; background: #fff; border: 1px solid #E3E8E5; border-radius: 14px; padding: 12px 16px; box-shadow: 0 10px 26px -16px rgba(22,48,90,0.4);"><dt style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 32px; color: #16305A; letter-spacing: -0.02em;">+25</dt><dd style="font-size: 13px; color: #6A7872; line-height: 1.3;">años de<br>trayectoria</dd></div>
+        <div style="display: flex; align-items: center; gap: 13px; background: #fff; border: 1px solid #E3E8E5; border-radius: 14px; padding: 12px 16px; box-shadow: 0 10px 26px -16px rgba(22,48,90,0.4);"><dt style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 32px; color: #16305A; letter-spacing: -0.02em;">CL·US</dt><dd style="font-size: 13px; color: #6A7872; line-height: 1.3;">industria chilena<br>y Estados Unidos</dd></div>
+        <div style="display: flex; align-items: center; gap: 13px; background: #fff; border: 1px solid #EAD9A0; border-radius: 14px; padding: 12px 16px; box-shadow: 0 10px 26px -14px rgba(180,140,20,0.5);">
+          <span aria-hidden="true" style="width: 52px; height: 58px; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center;">
+            <svg viewBox="0 0 52 58" width="52" height="58" aria-hidden="true">
+              <defs>
+                <linearGradient id="pmGold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FCE9A6"></stop><stop offset="0.45" stop-color="#E8B923"></stop><stop offset="1" stop-color="#B8860B"></stop></linearGradient>
+                <linearGradient id="pmGoldRim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF6D0"></stop><stop offset="1" stop-color="#C9962A"></stop></linearGradient>
+                <linearGradient id="pmRibbonL" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2A5FA8"></stop><stop offset="1" stop-color="#16305A"></stop></linearGradient>
+                <linearGradient id="pmRibbonR" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4E8F30"></stop><stop offset="1" stop-color="#2E5E1C"></stop></linearGradient>
+              </defs>
+              <path d="M18 30 L10 55 L19 50 L22 40 Z" fill="url(#pmRibbonL)"></path>
+              <path d="M34 30 L42 55 L33 50 L30 40 Z" fill="url(#pmRibbonR)"></path>
+              <circle cx="26" cy="24" r="21" fill="url(#pmGoldRim)"></circle>
+              <circle cx="26" cy="24" r="18" fill="url(#pmGold)" stroke="#A9781A" stroke-width="0.8"></circle>
+              <circle cx="26" cy="24" r="14" fill="none" stroke="#FCEed0" stroke-width="1" opacity="0.7"></circle>
+              <text x="26" y="24" text-anchor="middle" dominant-baseline="central" font-family="Archivo, sans-serif" font-weight="900" font-size="21" fill="#7A5410">1</text>
+            </svg>
+          </span>
+          <span style="font-size: 13px; color: #16305A; font-weight: 700; line-height: 1.3;">Únicos con compuesto<br>antibacterial en Chile</span>
+        </div>
+      </dl>
+    </div>
+    <div style="position: relative;">
+      <img src="assets/certificado-llc.jpg" alt="Certificado de constitución de PlasticMarket LLC — Florida Department of State" style="display:block; width:100%; height:auto; border-radius:14px; box-shadow:0 20px 55px -28px rgba(22,48,90,0.55);">
+    </div>
+  </div>
+</section>
+
+<!-- ============ FRANJA VERDE ============ -->
+<div class="pm-band" style="background: linear-gradient(100deg, #2E7D32 0%, #1F8A3B 55%, #4E8F30 100%); color: #fff; overflow: hidden;">
+  <div style="max-width: 1240px; margin: 0 auto; padding: 22px 24px; display: flex; align-items: center; justify-content: center; gap: 14px 40px; flex-wrap: wrap; text-align: center;">
+    <span style="display: inline-flex; align-items: center; gap: 10px; font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 16px;">Ingeniería Verde</span>
+    <span aria-hidden="true" style="width: 6px; height: 6px; border-radius: 50%; background: rgba(255,255,255,0.6);"></span>
+    <span style="font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 16px;">Reciclaje industrial</span>
+    <span aria-hidden="true" style="width: 6px; height: 6px; border-radius: 50%; background: rgba(255,255,255,0.6);"></span>
+    <span style="font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 16px;">Compuesto antibacterial certificado</span>
+    <span aria-hidden="true" style="width: 6px; height: 6px; border-radius: 50%; background: rgba(255,255,255,0.6);"></span>
+    <span style="font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 16px;">Chile y EE.UU.</span>
+  </div>
+</div>
+
+<!-- ============ SERVICIOS (cada uno cotiza por WhatsApp) ============ -->
+<section id="servicios" style="background: #F4F8EE; border-block: 1px solid #E4EFD6;">
+ <div style="max-width: 1240px; margin: 0 auto; padding: 72px 24px 60px;">
+  <div style="text-align: center; max-width: 640px; margin: 0 auto;">
+    <h2 style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: clamp(28px, 3.4vw, 40px); letter-spacing: -0.025em; margin: 0; color: #16305A;">Cotiza con nosotros</h2>
+    <p style="font-size: 17px; color: #4A5852; margin: 12px 0 0;">Expertos en:</p>
+  </div>
+  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-top: 40px;" data-cards4="">
+    <article style="background: #fff; border: 1px solid #E3E8E5; border-radius: 16px; padding: 26px; display: flex; flex-direction: column;" style-hover="border-color: #5FA83C;">
+      <h3 style="font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 19px; margin: 0 0 8px; color: #16305A;">Matricería</h3>
+      <p style="font-size: 14.5px; color: #5A6862; flex: 1;">Diseño y fabricación de moldes propios de alta precisión, reduciendo plazos y costos.</p>
+      <a href="{{ waMatriceria }}" target="_blank" rel="noopener" style="margin-top: 18px; background: #25D366; color: #fff; padding: 11px 16px; border-radius: 10px; font-weight: 600; font-size: 14px; text-align: center; display: inline-flex; align-items: center; justify-content: center; gap: 7px;" style-hover="background:#1EB456;color:#fff;"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm0 18.15c-1.52 0-3.01-.41-4.3-1.18l-.31-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.35c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.69 8.24-8.23 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.42-.14 0-.31-.02-.47-.02-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.02 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"></path></svg> Cotizar</a>
+      <a href="{{ mailMatriceria }}" style="margin-top: 8px; background:#fff; border: 1px solid #1B3E72; color: #1B3E72; padding: 10px 16px; border-radius: 10px; font-weight: 600; font-size: 14px; text-align: center; display: inline-flex; align-items: center; justify-content: center; gap: 7px;" style-hover="background:#1B3E72;color:#fff;"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg> Correo</a>
+    </article>
+    <article style="background: #fff; border: 1px solid #E3E8E5; border-radius: 16px; padding: 26px; display: flex; flex-direction: column;" style-hover="border-color: #5FA83C;">
+      <h3 style="font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 19px; margin: 0 0 8px; color: #16305A;">Inyección</h3>
+      <p style="font-size: 14.5px; color: #5A6862; flex: 1;">Inyección de polímeros de ingeniería y Caucho TR para piezas técnicas exigentes.</p>
+      <a href="{{ waInyeccion }}" target="_blank" rel="noopener" style="margin-top: 18px; background: #25D366; color: #fff; padding: 11px 16px; border-radius: 10px; font-weight: 600; font-size: 14px; text-align: center; display: inline-flex; align-items: center; justify-content: center; gap: 7px;" style-hover="background:#1EB456;color:#fff;"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm0 18.15c-1.52 0-3.01-.41-4.3-1.18l-.31-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.35c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.69 8.24-8.23 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.42-.14 0-.31-.02-.47-.02-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.02 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"></path></svg> Cotizar</a>
+      <a href="{{ mailInyeccion }}" style="margin-top: 8px; background:#fff; border: 1px solid #1B3E72; color: #1B3E72; padding: 10px 16px; border-radius: 10px; font-weight: 600; font-size: 14px; text-align: center; display: inline-flex; align-items: center; justify-content: center; gap: 7px;" style-hover="background:#1B3E72;color:#fff;"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg> Correo</a>
+    </article>
+    <article style="background: #fff; border: 1px solid #E3E8E5; border-radius: 16px; padding: 26px; display: flex; flex-direction: column;" style-hover="border-color: #5FA83C;">
+      <h3 style="font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 19px; margin: 0 0 8px; color: #16305A;">Extrusión</h3>
+      <p style="font-size: 14.5px; color: #5A6862; flex: 1;">Perfiles, láminas y films técnicos en distintos anchos y espesores, listos para termosellado.</p>
+      <a href="{{ waExtrusion }}" target="_blank" rel="noopener" style="margin-top: 18px; background: #25D366; color: #fff; padding: 11px 16px; border-radius: 10px; font-weight: 600; font-size: 14px; text-align: center; display: inline-flex; align-items: center; justify-content: center; gap: 7px;" style-hover="background:#1EB456;color:#fff;"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm0 18.15c-1.52 0-3.01-.41-4.3-1.18l-.31-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.35c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.69 8.24-8.23 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.42-.14 0-.31-.02-.47-.02-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.02 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"></path></svg> Cotizar</a>
+      <a href="{{ mailExtrusion }}" style="margin-top: 8px; background:#fff; border: 1px solid #1B3E72; color: #1B3E72; padding: 10px 16px; border-radius: 10px; font-weight: 600; font-size: 14px; text-align: center; display: inline-flex; align-items: center; justify-content: center; gap: 7px;" style-hover="background:#1B3E72;color:#fff;"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg> Correo</a>
+    </article>
+    <article style="background: #fff; border: 1px solid #E3E8E5; border-radius: 16px; padding: 26px; display: flex; flex-direction: column;" style-hover="border-color: #5FA83C;">
+      <h3 style="font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 19px; margin: 0 0 8px; color: #16305A;">Coextrusión</h3>
+      <p style="font-size: 14.5px; color: #5A6862; flex: 1;">Multicapa que combina materiales y propiedades en una sola pieza: barrera, rigidez y estética.</p>
+      <a href="{{ waCoextrusion }}" target="_blank" rel="noopener" style="margin-top: 18px; background: #25D366; color: #fff; padding: 11px 16px; border-radius: 10px; font-weight: 600; font-size: 14px; text-align: center; display: inline-flex; align-items: center; justify-content: center; gap: 7px;" style-hover="background:#1EB456;color:#fff;"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm0 18.15c-1.52 0-3.01-.41-4.3-1.18l-.31-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.35c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.69 8.24-8.23 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.42-.14 0-.31-.02-.47-.02-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.02 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"></path></svg> Cotizar</a>
+      <a href="{{ mailCoextrusion }}" style="margin-top: 8px; background:#fff; border: 1px solid #1B3E72; color: #1B3E72; padding: 10px 16px; border-radius: 10px; font-weight: 600; font-size: 14px; text-align: center; display: inline-flex; align-items: center; justify-content: center; gap: 7px;" style-hover="background:#1B3E72;color:#fff;"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg> Correo</a>
+    </article>
+  </div>
+ </div>
+</section>
+
+<!-- ============ ANTIBACTERIAL + VIDEO ============ -->
+<section id="antibacterial" style="max-width: 1240px; margin: 48px auto; padding: 0 24px;">
+  <div style="background: linear-gradient(120deg, #1B3E72, #14305C); border-radius: 24px; padding: 48px; color: #fff; display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 48px; align-items: center;" data-herogrid="">
+    <div>
+      <span style="font-family: inherit; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #D9DCD6">Nuestro diferenciador</span>
+      <h2 style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: clamp(26px, 3.2vw, 38px); letter-spacing: -0.02em; margin: 12px 0 0; text-transform: uppercase;">Compuesto antibacterial</h2>
+      <p style="font-family: Archivo; font-weight: 800; font-size: 18px; color: #F1F4EE; margin: 8px 0 0">Únicos en Chile, certificados</p>
+      <p style="font-size: 17px; color: #C7D6CE; margin: 16px 0 0; max-width: 520px;">Incorporamos la protección antibacterial en la base del material, no solo en la superficie. Higiene garantizada, fácil limpieza y alta durabilidad para entornos donde la seguridad sanitaria es prioridad.</p>
+    </div>
+    <div>
+      <div style="display: flex; align-items: center; gap: 14px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.16); border-radius: 16px; padding: 16px 18px; margin-bottom: 24px;">
+        <span aria-hidden="true" style="width: 56px; height: 62px; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center;">
+          <svg viewBox="0 0 52 58" width="56" height="62" aria-hidden="true">
+            <defs>
+              <linearGradient id="pmGoldD" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FCE9A6"></stop><stop offset="0.45" stop-color="#E8B923"></stop><stop offset="1" stop-color="#B8860B"></stop></linearGradient>
+              <linearGradient id="pmGoldRimD" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF6D0"></stop><stop offset="1" stop-color="#C9962A"></stop></linearGradient>
+              <linearGradient id="pmRibbonLD" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2A5FA8"></stop><stop offset="1" stop-color="#16305A"></stop></linearGradient>
+              <linearGradient id="pmRibbonRD" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4E8F30"></stop><stop offset="1" stop-color="#2E5E1C"></stop></linearGradient>
+            </defs>
+            <path d="M18 30 L10 55 L19 50 L22 40 Z" fill="url(#pmRibbonLD)"></path>
+            <path d="M34 30 L42 55 L33 50 L30 40 Z" fill="url(#pmRibbonRD)"></path>
+            <circle cx="26" cy="24" r="21" fill="url(#pmGoldRimD)"></circle>
+            <circle cx="26" cy="24" r="18" fill="url(#pmGoldD)" stroke="#A9781A" stroke-width="0.8"></circle>
+            <circle cx="26" cy="24" r="14" fill="none" stroke="#FCEed0" stroke-width="1" opacity="0.7"></circle>
+            <text x="26" y="24" text-anchor="middle" dominant-baseline="central" font-family="Archivo, sans-serif" font-weight="900" font-size="21" fill="#7A5410">1</text>
+          </svg>
+        </span>
+        <span style="font-size: 14px; color: #fff; font-weight: 700; line-height: 1.35;">Únicos en Chile con<br>compuesto antibacterial certificado</span>
+      </div>
+      <div>
+        <div style="font-size: 13px; font-family: Archivo; letter-spacing: 0.08em; text-transform: uppercase; color: #FFFFFF; margin-bottom: 12px">Áreas donde más se cotiza</div>
+        <ul style="list-style: none; display: flex; flex-wrap: wrap; gap: 10px;">
+          <li style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.14); padding: 9px 15px; border-radius: 100px; font-size: 14px;">Clínicas y salud</li>
+          <li style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.14); padding: 9px 15px; border-radius: 100px; font-size: 14px;">Laboratorios</li>
+          <li style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.14); padding: 9px 15px; border-radius: 100px; font-size: 14px;">Cocinas industriales</li>
+          <li style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.14); padding: 9px 15px; border-radius: 100px; font-size: 14px;">Restaurantes</li>
+          <li style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.14); padding: 9px 15px; border-radius: 100px; font-size: 14px;">Industria alimentaria</li>
+        </ul>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px;">
+      <a href="{{ waAntibacterial }}" target="_blank" rel="noopener" style="background: #25D366; color: #fff; padding: 14px 26px; border-radius: 12px; font-weight: 700; font-size: 15px; display: inline-flex; align-items: center; gap: 9px;" style-hover="background:#1EB456;color:#fff;"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm0 18.15c-1.52 0-3.01-.41-4.3-1.18l-.31-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.35c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.69 8.24-8.23 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.42-.14 0-.31-.02-.47-.02-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.02 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"></path></svg> Cotizar productos antibacteriales</a>
+      <a href="{{ mailAntibacterial }}" style="border: 1px solid rgba(255,255,255,0.55); color: #fff; padding: 14px 26px; border-radius: 12px; font-weight: 700; font-size: 15px; display: inline-flex; align-items: center; gap: 9px;" style-hover="background:rgba(255,255,255,0.14);color:#fff;"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg> Cotizar por correo</a>
+      </div>
+    </div>
+    </div>
+  </section></main></div>
+
+
+<!-- ============ PRODUCTOS DISPONIBLES ============ -->
+
+
+<!-- ============ MARCAS COLABORADORAS ============ -->
+<section id="productos" style="max-width: 1240px; margin: 0 auto; padding: 72px 24px 40px;">
+  <div style="max-width: 640px; margin: 0 auto; text-align: center;">
+      <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #4E8F30;">Productos y Proyectos</span>
+      <h2 style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: clamp(28px, 3.4vw, 40px); letter-spacing: -0.025em; margin: 12px 0 0; color: #16305A; text-align: center; text-transform: uppercase; overflow: visible">Productos y Proyectos</h2><p style="font-size: 17px; color: #4A5852; margin: 12px 0 0;">Contamos con matricería propia para producir tus piezas sin esperas. Además realizamos <strong style="color:#1A2420;">importaciones y exportaciones</strong> para abastecer proyectos en Chile y el extranjero.</p>
+      
+    </div>
+  <div style="display: flex; justify-content: flex-end; align-items: flex-end; gap: 24px; flex-wrap: wrap; margin-top: 8px;">
+    
+    <a href="{{ waProducto }}" target="_blank" rel="noopener" style="font-weight: 600; color: #4E8F30;">Solicitar catálogo →</a>
+  </div><div style="margin-top: 36px;">
+  <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:32px 22px;">
+    <sc-for list="{{ products }}" as="p" hint-placeholder-count="9">
+      <article style="display: flex; flex-direction: column; gap: 14px;">
+        <button onClick="{{ p.openInfo }}" aria-label="Ver más información de {{ p.title }}" style="position:relative; padding:0; border:none; background:transparent; cursor:pointer; display:block; width:100%;">
+          <image-slot id="{{ p.slot }}" src="{{ p.img }}" fit="contain" placeholder="Arrastra la foto del producto" style="display:block; width:100%; aspect-ratio:1350/1080; background:transparent;"></image-slot>
+        </button>
+        <button onClick="{{ p.openInfo }}" style="align-self:center; background:#4E8F30; border:none; color:#fff; padding:11px 22px; border-radius:100px; font-weight:600; font-size:14px; cursor:pointer; display:inline-flex; align-items:center; gap:8px;" style-hover="background:#3E7526;">＋ Ver más información</button>
+      </article>
+    </sc-for>
+  </div>
+  </div>
+  <div style="margin-top: 26px; background: #E7EEF8; border: 1px solid #D5E3F1; border-radius: 16px; padding: 22px 26px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; justify-content: space-between;">
+    <div style="display: flex; align-items: center; gap: 14px;">
+      <span aria-hidden="true" style="font-size: 26px;">🌎</span>
+      <div><div style="font-family:'Archivo',sans-serif; font-weight: 700; font-size: 17px; color: #16305A;">Importaciones y Exportaciones</div><div style="font-size: 14px; color: #4A5852;">Abastecemos proyectos entre Chile y EE.UU. con logística y volumen a medida.</div></div>
+    </div>
+    <a href="{{ waGeneral }}" target="_blank" rel="noopener" style="background: #1B3E72; color: #fff; padding: 12px 22px; border-radius: 11px; font-weight: 600; font-size: 14px;" style-hover="background:#14305C;color:#fff;">Consultar import/export</a>
+  </div>
+</section><section aria-label="Marcas con las que hemos trabajado" style="background: #16305A; overflow: hidden;">
+  <div style="padding: 16px 0;">
+    <div style="display: flex; width: max-content; gap: 22px; animation: pmMarquee 40s linear infinite; align-items: center;">
+        <div style="flex-shrink:0; width:158px; height:64px; background:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; padding:10px 14px;"><img src="assets/marca-aza.png" alt="AZA" loading="lazy" style="max-width:100%; max-height:100%; object-fit:contain;"></div>
+        <div style="flex-shrink:0; width:158px; height:64px; background:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; padding:10px 14px;"><img src="assets/marca-panpacific.png" alt="PanPacific" loading="lazy" style="max-width:100%; max-height:100%; object-fit:contain;"></div>
+        <div style="flex-shrink:0; width:158px; height:64px; background:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; padding:10px 14px;"><img src="assets/marca-gador.png" alt="Gador" loading="lazy" style="max-width:100%; max-height:100%; object-fit:contain;"></div>
+        <div style="flex-shrink:0; width:158px; height:64px; background:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; padding:10px 14px;"><img src="assets/marca-andes.png" alt="Andes Airport Services" loading="lazy" style="max-width:100%; max-height:100%; object-fit:contain;"></div>
+        <div style="flex-shrink:0; width:158px; height:64px; background:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; padding:10px 14px;"><img src="assets/marca-hospital.png" alt="Hospital San José de Melipilla" loading="lazy" style="max-width:100%; max-height:100%; object-fit:contain;"></div>
+        <div style="flex-shrink:0; width:158px; height:64px; background:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; padding:10px 14px;"><img src="assets/marca-meridian.png" alt="Minera Meridian El Peñón" loading="lazy" style="max-width:100%; max-height:100%; object-fit:contain;"></div>
+        <div style="flex-shrink:0; width:158px; height:64px; background:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; padding:10px 14px;"><img src="assets/marca-cosmetica.png" alt="Cosmética Nacional" loading="lazy" style="max-width:100%; max-height:100%; object-fit:contain;"></div>
+        <div style="flex-shrink:0; width:158px; height:64px; background:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; padding:10px 14px;"><img src="assets/marca-nestle.png" alt="Nestlé" loading="lazy" style="max-width:100%; max-height:100%; object-fit:contain;"></div>
+        <div style="flex-shrink:0; width:158px; height:64px; background:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; padding:10px 14px;"><img src="assets/marca-cinemark.png" alt="Cinemark" loading="lazy" style="max-width:100%; max-height:100%; object-fit:contain;"></div>
+        <div style="flex-shrink:0; width:158px; height:64px; background:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; padding:10px 14px;"><img src="assets/marca-pf.png" alt="PF" loading="lazy" style="max-width:100%; max-height:100%; object-fit:contain;"></div>
+        <div style="flex-shrink:0; width:158px; height:64px; background:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; padding:10px 14px;"><img src="assets/marca-aza.png" alt="AZA" loading="lazy" style="max-width:100%; max-height:100%; object-fit:contain;"></div>
+        <div style="flex-shrink:0; width:158px; height:64px; background:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; padding:10px 14px;"><img src="assets/marca-panpacific.png" alt="PanPacific" loading="lazy" style="max-width:100%; max-height:100%; object-fit:contain;"></div>
+        <div style="flex-shrink:0; width:158px; height:64px; background:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; padding:10px 14px;"><img src="assets/marca-gador.png" alt="Gador" loading="lazy" style="max-width:100%; max-height:100%; object-fit:contain;"></div>
+        <div style="flex-shrink:0; width:158px; height:64px; background:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; padding:10px 14px;"><img src="assets/marca-andes.png" alt="Andes Airport Services" loading="lazy" style="max-width:100%; max-height:100%; object-fit:contain;"></div>
+        <div style="flex-shrink:0; width:158px; height:64px; background:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; padding:10px 14px;"><img src="assets/marca-hospital.png" alt="Hospital San José de Melipilla" loading="lazy" style="max-width:100%; max-height:100%; object-fit:contain;"></div>
+        <div style="flex-shrink:0; width:158px; height:64px; background:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; padding:10px 14px;"><img src="assets/marca-meridian.png" alt="Minera Meridian El Peñón" loading="lazy" style="max-width:100%; max-height:100%; object-fit:contain;"></div>
+        <div style="flex-shrink:0; width:158px; height:64px; background:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; padding:10px 14px;"><img src="assets/marca-cosmetica.png" alt="Cosmética Nacional" loading="lazy" style="max-width:100%; max-height:100%; object-fit:contain;"></div>
+        <div style="flex-shrink:0; width:158px; height:64px; background:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; padding:10px 14px;"><img src="assets/marca-nestle.png" alt="Nestlé" loading="lazy" style="max-width:100%; max-height:100%; object-fit:contain;"></div>
+        <div style="flex-shrink:0; width:158px; height:64px; background:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; padding:10px 14px;"><img src="assets/marca-cinemark.png" alt="Cinemark" loading="lazy" style="max-width:100%; max-height:100%; object-fit:contain;"></div>
+        <div style="flex-shrink:0; width:158px; height:64px; background:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; padding:10px 14px;"><img src="assets/marca-pf.png" alt="PF" loading="lazy" style="max-width:100%; max-height:100%; object-fit:contain;"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACTO / FORMULARIO → WHATSAPP + UBICACIÓN ============ -->
+<section id="contacto" style="max-width: 1240px; margin: 0 auto; padding: 88px 24px 40px;">
+  <div style="max-width: 760px; margin: 0 auto; text-align: center;">
+      <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #4E8F30;">Cotización y contacto</span>
+      <h2 style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: clamp(28px, 3.4vw, 40px); letter-spacing: -0.025em; margin: 12px 0 0; color: #16305A;">Solicita tu cotización</h2>
+      <p style="font-size: 16px; color: #4A5852; margin: 12px 0 0;">Completa el formulario y se abrirá WhatsApp con tu mensaje listo para enviar. Te respondemos a la brevedad.</p>
+      <form onSubmit="{{ onSubmitQuote }}" style="margin-top: 26px; display: flex; flex-direction: column; gap: 14px;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;" data-formrow="">
+          <input name="nombre" required="" placeholder="Nombre y empresa" style="padding: 13px 15px; border: 1px solid #D5DCD8; border-radius: 11px; font-size: 15px; background: #fff;">
+          <input name="telefono" placeholder="Teléfono (opcional)" style="padding: 13px 15px; border: 1px solid #D5DCD8; border-radius: 11px; font-size: 15px; background: #fff;">
+        </div>
+        <select name="interes" style="padding: 13px 15px; border: 1px solid #D5DCD8; border-radius: 11px; font-size: 15px; background: #fff; color: #1A2420;">
+          <option>Matricería</option>
+          <option>Inyección</option>
+          <option>Extrusión</option>
+          <option>Coextrusión</option>
+          <option>Producto antibacterial</option>
+          <option>Importación / Exportación</option>
+          <option>Producto disponible (matriz lista)</option>
+          <option>Otro / proyecto a medida</option>
+        </select>
+        <textarea name="mensaje" required="" rows="4" placeholder="Cuéntanos sobre tu producto o proyecto…" style="padding: 13px 15px; border: 1px solid #D5DCD8; border-radius: 11px; font-size: 15px; background: #fff; resize: vertical;"></textarea>
+        <button type="submit" style="background: #4E8F30; color: #fff; border: none; padding: 16px; border-radius: 12px; font-family:'Archivo',sans-serif; font-weight: 800; font-size: 16px; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 9px;" style-hover="background:#3E7526;">Enviar solicitud →</button>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;" data-formrow="">
+          <button type="button" onClick="{{ onSubmitQuoteWa }}" style="background: #25D366; color: #fff; border: none; padding: 14px; border-radius: 12px; font-family:'Archivo',sans-serif; font-weight: 700; font-size: 14px; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 8px; animation: pmPulse 2.4s infinite;" style-hover="background:#1EB456;"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm0 18.15c-1.52 0-3.01-.41-4.3-1.18l-.31-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.35c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.69 8.24-8.23 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.42-.14 0-.31-.02-.47-.02-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.02 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"></path></svg> WhatsApp</button>
+          <button type="button" onClick="{{ onSubmitEmail }}" style="background: #1B3E72; color: #fff; border: none; padding: 14px; border-radius: 12px; font-family:'Archivo',sans-serif; font-weight: 700; font-size: 14px; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" style-hover="background:#14305C;"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg> Correo</button>
+        </div>
+      </form>
+    </div>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: start; max-width: 1160px; margin: 56px auto 0;" data-herogrid="">
+      <div style="background: linear-gradient(155deg, #1B3E72 0%, #16305A 60%, #122747 100%); border: 1px solid #1B3E72; border-radius: 18px; padding: 28px; box-shadow: 0 20px 50px -26px rgba(18,39,71,0.7);">
+        <h3 style="font-family:'Archivo',sans-serif; font-weight: 700; font-size: 20px; color: #fff; margin-bottom: 18px;">Información de contacto</h3>
+        <div style="display: flex; flex-direction: column; gap: 16px;">
+          <a href="https://wa.me/56933722400" target="_blank" rel="noopener" style="display: flex; align-items: center; gap: 14px; color: #fff;" style-hover="color:#DDF3C8;"><span aria-hidden="true" style="width: 42px; height: 42px; flex-shrink: 0; border-radius: 11px; background: #E7F9EE; color:#25D366; display: inline-flex; align-items: center; justify-content: center;"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm0 18.15c-1.52 0-3.01-.41-4.3-1.18l-.31-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.35c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.69 8.24-8.23 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.42-.14 0-.31-.02-.47-.02-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.02 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"></path></svg></span><span><span style="display: block; font-size: 12px; color: rgba(255,255,255,0.72); font-family: inherit">TELÉFONO / WHATSAPP</span><span style="font-weight: 600;">+56 9 3372 2400</span></span></a>
+          <a href="mailto:ventas@plastic-market.com" style="display: flex; align-items: center; gap: 14px; color: #fff;" style-hover="color:#DDF3C8;"><span aria-hidden="true" style="width: 42px; height: 42px; flex-shrink: 0; border-radius: 11px; background: #fff; border: 1px solid #E3E8E5; display: inline-flex; align-items: center; justify-content: center;"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="#4285F4" d="M22 6.5V18a1.5 1.5 0 0 1-1.5 1.5H19V9.2l-7 5.05L5 9.2v10.3H3.5A1.5 1.5 0 0 1 2 18V6.5z"></path><path fill="#EA4335" d="M2 6.5A1.5 1.5 0 0 1 3.5 5H4l8 5.8L20 5h.5A1.5 1.5 0 0 1 22 6.5L12 13.75z"></path><path fill="#34A853" d="M5 19.5H3.5A1.5 1.5 0 0 1 2 18V8.2l3 2.16z"></path><path fill="#FBBC05" d="M19 19.5h1.5A1.5 1.5 0 0 0 22 18V8.2l-3 2.16z"></path></svg></span><span><span style="display: block; font-size: 12px; color: rgba(255,255,255,0.72); font-family: inherit">CORREO</span><span style="font-weight: 600; display:block;">ventas@plastic-market.com</span><span style="font-weight: 600; display:block;">contacto@plastic-market.com</span></span></a>
+          <a href="https://www.instagram.com/plasticmarket_ltda/" target="_blank" rel="noopener" style="display: flex; align-items: center; gap: 14px; color: #fff;" style-hover="color:#DDF3C8;"><span aria-hidden="true" style="width: 42px; height: 42px; flex-shrink: 0; border-radius: 11px; background: #fff; border: 1px solid #E3E8E5; color:#E1306C; display: inline-flex; align-items: center; justify-content: center;"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16zm0 1.62c-3.15 0-3.52.01-4.76.07-1.15.05-1.77.24-2.19.4-.55.21-.94.47-1.35.88-.41.41-.67.8-.88 1.35-.16.42-.35 1.04-.4 2.19-.06 1.24-.07 1.61-.07 4.76s.01 3.52.07 4.76c.05 1.15.24 1.77.4 2.19.21.55.47.94.88 1.35.41.41.8.67 1.35.88.42.16 1.04.35 2.19.4 1.24.06 1.61.07 4.76.07s3.52-.01 4.76-.07c1.15-.05 1.77-.24 2.19-.4.55-.21.94-.47 1.35-.88.41-.41.67-.8.88-1.35.16-.42.35-1.04.4-2.19.06-1.24.07-1.61.07-4.76s-.01-3.52-.07-4.76c-.05-1.15-.24-1.77-.4-2.19a3.6 3.6 0 0 0-.88-1.35 3.6 3.6 0 0 0-1.35-.88c-.42-.16-1.04-.35-2.19-.4-1.24-.06-1.61-.07-4.76-.07zm0 2.76a5.46 5.46 0 1 1 0 10.92 5.46 5.46 0 0 1 0-10.92zm0 1.62a3.84 3.84 0 1 0 0 7.68 3.84 3.84 0 0 0 0-7.68zm5.65-2.9a1.28 1.28 0 1 1 0 2.56 1.28 1.28 0 0 1 0-2.56z"></path></svg></span><span><span style="display: block; font-size: 12px; color: rgba(255,255,255,0.72); font-family: inherit">INSTAGRAM</span><span style="font-weight: 600;">@plasticmarket_ltda</span></span></a>
+        </div>
+        <div style="margin-top: 20px; display: flex; flex-direction: column; gap: 12px;">
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Av.+Quil%C3%ADn+2746+Macul+Santiago+Chile" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 12px; padding: 14px 16px; border-radius: 12px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.18); color: #fff;" style-hover="background:rgba(255,255,255,0.18);color:#fff;">
+            <span aria-hidden="true" style="font-size: 18px; line-height: 1.3;">📍</span>
+            <span><span style="display: block; font-size: 12px; color: rgba(255,255,255,0.72); font-family: Archivo">CHILE 🇨🇱 · VER EN MAPS</span><span style="font-weight: 600;">Av. Quilín #2746, Macul, Santiago</span></span>
+          </a>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=2+S+Biscayne+Boulevard+Suite+3200+Miami+FL+33131" target="_blank" rel="noopener" style="display: flex; align-items: flex-start; gap: 12px; padding: 14px 16px; border-radius: 12px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.18); color: #fff;" style-hover="background:rgba(255,255,255,0.18);color:#fff;">
+            <span aria-hidden="true" style="font-size: 18px; line-height: 1.3;">📍</span>
+            <span><span style="display: block; font-size: 12px; color: rgba(255,255,255,0.72); font-family: Archivo">EE.UU. 🇺🇸 · VER EN MAPS</span><span style="font-weight: 600; font-family: Archivo">2 S Biscayne Boulevard, Suite 3200 #4974, Miami, FL 33131</span></span>
+          </a>
+        </div>
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=Av.+Quil%C3%ADn+2746+Macul+Santiago+Chile" target="_blank" rel="noopener" aria-label="Ver ubicación en Google Maps" style="margin-top: 16px; display: block; position: relative; border-radius: 14px; overflow: hidden; border: 1px solid rgba(255,255,255,0.18);">
+          <iframe title="Mapa PlasticMarket — Av. Quilín 2746, Macul" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.635614320974!2d-70.60628222449772!3d-33.48483647337581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d01e9d3a78bf%3A0xa2741b1d930a2705!2sAv.%20Quilin%202746%2C%207810858%20Macul%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1783386294611!5m2!1ses-419!2scl" width="100%" height="220" style="border:0; display:block; pointer-events:none;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          <span style="position:absolute; bottom:12px; left:12px; background: #fff; padding: 8px 14px; border-radius: 100px; font-weight: 600; font-size: 13px; color: #1B3E72; display: inline-flex; align-items: center; gap: 7px;"><span aria-hidden="true">📍</span> Abrir en Google Maps</span>
+        </a>
+        <p style="font-size: 13px; color: rgba(255,255,255,0.8); margin-top: 14px;">Atención a todo Chile · Importaciones y exportaciones CL–EE.UU.</p>
+      </div>
+      <div id="faq">
+  <div style="text-align: left; margin-bottom: 22px;">
+    <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #4E8F30;">Preguntas frecuentes</span>
+    <h2 style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: clamp(24px, 3vw, 34px); letter-spacing: -0.025em; margin: 10px 0 0; color: #16305A;">Resolvemos tus dudas</h2>
+  </div>
+  <div style="display: flex; flex-direction: column; gap: 12px;">
+    <sc-for list="{{ faqs }}" as="item" hint-placeholder-count="5">
+      <div style="border: 1px solid #E3E8E5; border-radius: 14px; background: #fff; overflow: hidden;">
+        <button onClick="{{ item.toggle }}" aria-expanded="{{ item.open }}" style="width: 100%; text-align: left; background: none; border: none; padding: 20px 22px; display: flex; align-items: center; justify-content: space-between; gap: 16px; cursor: pointer; font-family:'Archivo',sans-serif; font-weight: 700; font-size: 17px; color: #16305A;">
+          <span>{{ item.q }}</span>
+          <span aria-hidden="true" style="flex-shrink: 0; color: #4E8F30; font-size: 22px;">{{ item.sign }}</span>
+        </button>
+        <sc-if value="{{ item.open }}" hint-placeholder-val="{{ false }}">
+          <p style="padding: 0 22px 20px; font-size: 15px; color: #5A6862; line-height: 1.6;">{{ item.a }}</p>
+        </sc-if>
+      </div>
+    </sc-for>
+  </div>
+    </div>
+  </div>
+</section>
+
+<footer style="background: #16305A; color: #B4C4BC; margin-top: 48px;">
+  <div style="max-width: 1240px; margin: 0 auto; padding: 56px 24px 32px;">
+    <div style="display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 40px;" data-herogrid="">
+      <div>
+        <div style="display: flex; align-items: center; gap: 11px;">
+          <img src="assets/pm-logo-footer.png" alt="PlasticMarket — Ideas que venden más" style="height: 96px; width: auto; border-radius: 12px; display: block;">
+        </div>
+        <p style="font-size: 14px; margin: 14px 0 0; max-width: 320px;">Ingeniería Verde en plástico y caucho. Matricería, inyección, extrusión y coextrusión con compuesto antibacterial certificado. Chile y EE.UU.</p>
+      </div>
+      <div>
+        <div style="font-family:'Archivo',sans-serif; font-weight: 700; color: #fff; font-size: 15px; margin-bottom: 14px;">Navegación</div>
+        <div style="display: flex; flex-direction: column; gap: 9px; font-size: 14px;">
+          <a href="#nosotros" style="color: #B4C4BC;" style-hover="color:#9BD36F;">Nosotros</a>
+          <a href="#servicios" style="color: #B4C4BC;" style-hover="color:#9BD36F;">Servicios</a>
+          <a href="#antibacterial" style="color: #B4C4BC;" style-hover="color:#9BD36F;">Antibacterial</a>
+          <a href="#productos" style="color: #B4C4BC;" style-hover="color:#9BD36F;">Productos</a>
+        </div>
+      </div>
+      <div>
+        <div style="font-family:'Archivo',sans-serif; font-weight: 700; color: #fff; font-size: 15px; margin-bottom: 14px;">Contacto</div>
+        <div style="display: flex; flex-direction: column; gap: 9px; font-size: 14px;">
+          <a href="tel:+56933722400" style="color: #B4C4BC;" style-hover="color:#9BD36F;">+56 9 3372 2400</a>
+          <a href="mailto:contacto@plastic-market.com" style="color: #B4C4BC;" style-hover="color:#9BD36F;">contacto@plastic-market.com</a>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Av.+Quil%C3%ADn+2746+Macul+Santiago+Chile" target="_blank" rel="noopener" style="color: #B4C4BC;" style-hover="color:#9BD36F;">Santiago, Chile — Ver mapa</a>
+          <a href="{{ waGeneral }}" target="_blank" rel="noopener" style="color: #9BD36F; font-weight: 600;">Cotizar por WhatsApp →</a>
+          <a href="{{ mailGeneral }}" style="color: #9BD36F; font-weight: 600;">Cotizar por correo →</a>
+        </div>
+      </div>
+    </div>
+    <div style="height: 1px; background: rgba(255,255,255,0.1); margin: 32px 0 20px;"></div>
+    <div style="display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-size: 13px; color: #7E9089;">
+      <span>© 2026 PlasticMarket · Plastic Market Ltda. · PlasticMarket LLC</span>
+      <span>Ingeniería Verde ♻️ · Hecho en Chile</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ MODAL DETALLE PRODUCTO ============ -->
+<sc-if value="{{ modalOpen }}" hint-placeholder-val="{{ false }}">
+  <div onClick="{{ closeModal }}" style="position: fixed; inset: 0; z-index: 70; background: rgba(15,25,45,0.55); backdrop-filter: blur(3px); display: flex; align-items: center; justify-content: center; padding: 24px;">
+    <div onClick="{{ stop }}" role="dialog" aria-modal="true" style="background: #fff; border-radius: 20px; max-width: 860px; width: 100%; max-height: 90vh; overflow: hidden; box-shadow: 0 30px 80px -20px rgba(0,0,0,0.5); display: grid; grid-template-columns: 1.05fr 1fr;" data-herogrid="">
+      <div style="background: #F4F8EE; display: flex; align-items: center; justify-content: center; min-height: 260px;">
+        <image-slot id="{{ modal.slot }}" src="{{ modal.img }}" fit="contain" placeholder="Foto del producto" style="display:block; width:100%; height:100%; aspect-ratio:1/1; background:#F4F8EE;"></image-slot>
+      </div>
+      <div style="padding: 32px; position: relative; overflow-y: auto; max-height: 90vh;">
+        <button onClick="{{ closeModal }}" aria-label="Cerrar" style="position: absolute; top: 16px; right: 16px; width: 34px; height: 34px; border-radius: 50%; border: 1px solid #E3E8E5; background: #fff; cursor: pointer; font-size: 18px; color: #6A7872; line-height: 1;">✕</button>
+        <span style="display:inline-block; background:#16305A; color:#9BD36F; font-family:'IBM Plex Mono',monospace; font-size:10px; padding:4px 10px; border-radius:6px;">MATRIZ LISTA · DISEÑO INMEDIATO</span>
+        <h3 style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 26px; color: #16305A; margin: 14px 0 0; letter-spacing: -0.02em;">{{ modal.title }}</h3>
+        <p style="font-size: 15px; color: #4A5852; margin: 12px 0 0; line-height: 1.6;">{{ modal.detail }}</p>
+        <ul style="list-style: none; margin: 18px 0 0; display: flex; flex-direction: column; gap: 9px;">
+          <sc-for list="{{ modal.features }}" as="f" hint-placeholder-count="3">
+            <li style="display: flex; align-items: flex-start; gap: 10px; font-size: 14px; color: #38443E;"><span aria-hidden="true" style="color:#4E8F30; font-weight:800;">✓</span> {{ f }}</li>
+          </sc-for>
+        </ul>
+        <div style="display: flex; flex-direction: column; gap: 10px; margin-top: 26px;">
+          <a href="{{ modal.wa }}" target="_blank" rel="noopener" style="background:#25D366; color:#fff; padding: 13px 18px; border-radius: 11px; font-weight: 700; font-size: 15px; text-align: center; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" style-hover="background:#1EB456;color:#fff;"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm0 18.15c-1.52 0-3.01-.41-4.3-1.18l-.31-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.35c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.69 8.24-8.23 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.42-.14 0-.31-.02-.47-.02-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.02 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"></path></svg> Cotizar este producto por WhatsApp</a>
+          <a href="{{ modal.email }}" style="background:#fff; border: 1px solid #1B3E72; color: #1B3E72; padding: 13px 18px; border-radius: 11px; font-weight: 700; font-size: 15px; text-align: center; display: inline-flex; align-items: center; justify-content: center; gap: 8px;" style-hover="background:#1B3E72;color:#fff;"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg> Cotizar por correo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</sc-if>
+
+<!-- ============ FLOATING WHATSAPP ============ -->
+<a href="{{ waGeneral }}" target="_blank" rel="noopener" aria-label="Cotizar por WhatsApp" style="position: fixed; bottom: 24px; right: 24px; z-index: 60; width: 58px; height: 58px; border-radius: 50%; background: #25D366; color: #fff; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 30px -6px rgba(37,211,102,0.6); animation: pmPulse 2.4s infinite;" style-hover="background:#1EB456;color:#fff;"><svg viewBox="0 0 24 24" width="30" height="30" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm0 18.15c-1.52 0-3.01-.41-4.3-1.18l-.31-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.35c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.69 8.24-8.23 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.42-.14 0-.31-.02-.47-.02-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.02 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"></path></svg></a>
+
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1280,&quot;height&quot;:900},&quot;whatsappNumber&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;56933722400&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Contacto&quot;},&quot;logoOffsetY&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:0,&quot;min&quot;:-30,&quot;max&quot;:30,&quot;step&quot;:1,&quot;unit&quot;:&quot;px&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Logo&quot;},&quot;showReviews&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Secciones&quot;}}">
+class Component extends DCLogic {
+  state = { openIdx: 0, mobile: false, modalId: null, lang: "es", langMenuOpen: false };
+
+  get waNumber() {
+    return (this.props.whatsappNumber || "56933722400").replace(/[^0-9]/g, "");
+  }
+  wa(msg) {
+    return "https://wa.me/" + this.waNumber + "?text=" + encodeURIComponent(msg);
+  }
+  mail(asunto, cuerpo) {
+    return "mailto:ventas@plastic-market.com?cc=contacto@plastic-market.com&subject=" + encodeURIComponent(asunto) + "&body=" + encodeURIComponent(cuerpo);
+  }
+  scrollTrack(id, dir) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    const step = id === "pm-anti-track" ? el.clientWidth : Math.min(el.clientWidth * 0.9, 380);
+    el.scrollBy({ left: dir * step, behavior: "smooth" });
+  }
+  toggleFaq(i) {
+    this.setState((s) => ({ openIdx: s.openIdx === i ? -1 : i }));
+  }
+
+  componentDidMount() {
+    const v = document.querySelector("[data-hero-video]");
+    this._video = v;
+    if (v) {
+      v.muted = true;
+      const reveal = () => { v.style.opacity = "1"; };
+      v.addEventListener("loadeddata", reveal);
+      if (v.readyState >= 2) reveal();
+      try {
+        const saved = localStorage.getItem("pm-hero-video");
+        if (saved) { v.src = saved; v.load(); }
+      } catch (e) {}
+      v.play && v.play().catch(() => {});
+    }
+    try {
+      const savedLang = localStorage.getItem("pm-lang");
+      if (savedLang === "en") { this.setState({ lang: "en" }); }
+    } catch (e) {}
+    this.setupScrollReveal();
+  }
+
+  setupScrollReveal() {
+    if (typeof IntersectionObserver === "undefined") return;
+    document.body.classList.add("pm-anim");
+    const sel = "h1,h2,h3,p,span,article,figure,li,dl,image-slot,img,form,a,button,.pm-card";
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((en) => {
+        if (en.isIntersecting) { en.target.classList.add("pm-in"); io.unobserve(en.target); }
+      });
+    }, { threshold: 0.08, rootMargin: "0px 0px -40px 0px" });
+
+    const scopes = document.querySelectorAll("main > section, footer");
+    scopes.forEach((scope) => {
+      const all = Array.from(scope.querySelectorAll(sel));
+      // Quedarse solo con los bloques de nivel superior: descartar los que
+      // tengan un ancestro (dentro del scope) que también se anime.
+      const picked = all.filter((el) => {
+        if (el.closest("[data-track]") && el.tagName === "ARTICLE") return true;
+        let p = el.parentElement;
+        while (p && p !== scope) {
+          if (all.indexOf(p) !== -1) return false;
+          p = p.parentElement;
+        }
+        return true;
+      });
+      picked.forEach((el, i) => {
+        el.setAttribute("data-reveal", "");
+        el.style.transitionDelay = Math.min(i, 8) * 55 + "ms";
+        io.observe(el);
+      });
+    });
+  }
+
+  get i18n() {
+    return {
+      // Nav
+      "Nosotros": "About us",
+      "Servicios": "Services",
+      "Antibacterial": "Antibacterial",
+      "Productos": "Products",
+      "Contacto": "Contact",
+      "Cotizar": "Get a quote",
+      "IDEAS QUE VENDEN MÁS": "IDEAS THAT SELL MORE",
+      "Ideas que venden más": "Ideas that sell more",
+      // Hero
+      "Cotizar por WhatsApp": "Quote via WhatsApp",
+      "Cotizar por correo": "Quote via email",
+      "Ver productos disponibles →": "See available products →",
+      "Ver productos →": "See products →",
+      "Subir video de portada": "Upload cover video",
+      // Quiénes somos
+      "Quiénes somos": "About us",
+      "Transformamos ideas en soluciones de": "We turn ideas into",
+      "plástico": "plastic",
+      "Caucho termoplástico": "Thermoplastic rubber",
+      "y": "and",
+      "Somos una empresa chilena con más de 25 años de trayectoria, especializada en matricería, inyección, extrusión y coextrusión. Acompañamos a cada cliente desde el diseño hasta la fabricación final, con un fuerte compromiso con la calidad y el medio ambiente.": "We are a Chilean company with over 25 years of experience, specialized in tooling, injection, extrusion and coextrusion. We support every client from design to final manufacturing, with a strong commitment to quality and the environment.",
+      "Expertos en": "Experts in",
+      "Ingeniería Verde": "Green Engineering",
+      ": usamos reciclaje industrial para crear compuestos sostenibles, y somos los únicos en Chile en trabajar con compuesto plástico": ": we use industrial recycling to create sustainable compounds, and we are the only company in Chile working with a certified",
+      "antibacterial certificado": "antibacterial plastic compound",
+      ". Operamos también como PlasticMarket LLC en Estados Unidos.": ". We also operate as PlasticMarket LLC in the United States.",
+      "años de": "years of",
+      "trayectoria": "experience",
+      "industria chilena": "Chilean industry",
+      "y Estados Unidos": "and United States",
+      "Únicos con compuesto": "The only ones with an",
+      "antibacterial en Chile": "antibacterial compound in Chile",
+      // Green band
+      "Reciclaje industrial": "Industrial recycling",
+      "Compuesto antibacterial certificado": "Certified antibacterial compound",
+      "Chile y EE.UU.": "Chile & USA",
+      // Servicios
+      "Cotiza con nosotros": "Get a quote with us",
+      "Expertos en:": "Experts in:",
+      "Matricería": "Tooling",
+      "Inyección": "Injection",
+      "Extrusión": "Extrusion",
+      "Coextrusión": "Coextrusion",
+      "Diseño y fabricación de moldes propios de alta precisión, reduciendo plazos y costos.": "In-house design and manufacturing of high-precision molds, reducing lead times and costs.",
+      "Inyección de polímeros de ingeniería y Caucho TR para piezas técnicas exigentes.": "Injection of engineering polymers and TR Rubber for demanding technical parts.",
+      "Perfiles, láminas y films técnicos en distintos anchos y espesores, listos para termosellado.": "Profiles, sheets and technical films in various widths and thicknesses, ready for heat sealing.",
+      "Multicapa que combina materiales y propiedades en una sola pieza: barrera, rigidez y estética.": "Multilayer that combines materials and properties in a single piece: barrier, rigidity and aesthetics.",
+      "Correo": "Email",
+      // Antibacterial
+      "Nuestro diferenciador": "Our difference",
+      "Compuesto antibacterial": "Antibacterial compound",
+      "Únicos en Chile, certificados": "The only ones in Chile, certified",
+      "Incorporamos la protección antibacterial en la base del material, no solo en la superficie. Higiene garantizada, fácil limpieza y alta durabilidad para entornos donde la seguridad sanitaria es prioridad.": "We build antibacterial protection into the base of the material, not just the surface. Guaranteed hygiene, easy cleaning and high durability for environments where sanitary safety is a priority.",
+      "Únicos en Chile con": "The only ones in Chile with",
+      "compuesto antibacterial certificado": "a certified antibacterial compound",
+      "Áreas donde más se cotiza": "Most requested areas",
+      "Clínicas y salud": "Clinics & healthcare",
+      "Laboratorios": "Laboratories",
+      "Cocinas industriales": "Industrial kitchens",
+      "Restaurantes": "Restaurants",
+      "Industria alimentaria": "Food industry",
+      "Cotizar productos antibacteriales": "Quote antibacterial products",
+      // Productos
+      "Productos y Proyectos": "Products/projects",
+      "Contamos con matricería propia para producir tus piezas sin esperas. Además realizamos": "We have our own tooling to produce your parts with no waiting. We also handle",
+      "importaciones y exportaciones": "imports and exports",
+      "para abastecer proyectos en Chile y el extranjero.": "to supply projects in Chile and abroad.",
+      "Solicitar catálogo →": "Request catalog →",
+      "MATRIZ LISTA": "MOLD READY",
+      "＋ Ver más información": "＋ More information",
+      "Ver más información y cotizar": "More information & quote",
+      "Ver más información": "More information",
+      "MATRIZ LISTA · DISEÑO INMEDIATO": "MOLD READY · IMMEDIATE DESIGN",
+      "Cotizar este producto por WhatsApp": "Quote this product via WhatsApp",
+      "Tablas de corte antibacterial": "Antibacterial cutting boards",
+      "Para cocinas y salud. Distintos colores para evitar contaminación cruzada.": "For kitchens and healthcare. Different colors to prevent cross-contamination.",
+      "Pisos antideslizantes antifatiga": "Anti-slip anti-fatigue flooring",
+      "Escurren agua. Ideales para restaurantes, cocinas industriales y áreas húmedas.": "Drains water. Ideal for restaurants, industrial kitchens and wet areas.",
+      "Soportes para mallas antiheladas": "Anti-frost mesh supports",
+      "Firmeza y resistencia para proteger cultivos en cualquier terreno agrícola.": "Strength and resistance to protect crops on any agricultural terrain.",
+      "Estacas plásticas de alta durabilidad": "High-durability plastic stakes",
+      "Resisten UV, humedad y uso prolongado. Para minería y agricultura.": "Resistant to UV, humidity and prolonged use. For mining and agriculture.",
+      "Film y exhibidores plásticos": "Plastic film & displays",
+      "Alta transparencia para termosellado y presentación profesional de productos.": "High transparency for heat sealing and professional product presentation.",
+      "Tablas multiuso corporativas": "Corporate multipurpose boards",
+      "Organización en laboratorios, clínicas y oficinas. Con personalización corporativa.": "Organization for labs, clinics and offices. With corporate customization.",
+      "Importaciones y Exportaciones": "Imports & Exports",
+      "Abastecemos proyectos entre Chile y EE.UU. con logística y volumen a medida.": "We supply projects between Chile and the USA with tailored logistics and volume.",
+      "Consultar import/export": "Ask about import/export",
+      // FAQ
+      "Preguntas frecuentes": "Frequently asked questions",
+      "Resolvemos tus dudas": "We answer your questions",
+      "¿Fabrican productos a medida?": "Do you manufacture custom products?",
+      "Sí. Contamos con matricería propia para diseñar y fabricar tu pieza desde cero, además de productos con matriz ya disponible para diseño inmediato.": "Yes. We have our own tooling to design and manufacture your part from scratch, plus products with molds already available for immediate design.",
+      "¿Qué materiales trabajan?": "What materials do you work with?",
+      "Trabajamos PP (polipropileno), PET, PC (policarbonato), ABS, PHDP, PAI, PVC y Caucho TR (termoplástico reforzado), además de fabricación de compuestos especiales a medida, incluyendo nuestro compuesto antibacterial certificado.": "We work with PP (polypropylene), PET, PC (polycarbonate), ABS, PHDP, PAI, PVC and TR Rubber (reinforced thermoplastic), plus custom special compound manufacturing, including our certified antibacterial compound.",
+      "¿Qué hace único al compuesto antibacterial?": "What makes the antibacterial compound unique?",
+      "La protección se incorpora en la base del material, no solo en la superficie. Somos los únicos en Chile con este compuesto certificado, ideal para salud y alimentación.": "The protection is built into the base of the material, not just the surface. We are the only company in Chile with this certified compound, ideal for healthcare and food.",
+      "¿Realizan importaciones y exportaciones?": "Do you handle imports and exports?",
+      "Sí. Operamos en Chile y como PlasticMarket LLC en EE.UU., abasteciendo proyectos con logística y volumen a medida.": "Yes. We operate in Chile and as PlasticMarket LLC in the USA, supplying projects with tailored logistics and volume.",
+      "¿Cómo solicito una cotización?": "How do I request a quote?",
+      "Por WhatsApp desde cualquier botón del sitio, completando el formulario de contacto, o escribiendo a ventas@plastic-market.com o contacto@plastic-market.com. Respondemos a la brevedad.": "Via WhatsApp from any button on the site, by filling out the contact form, or by writing to ventas@plastic-market.com or contacto@plastic-market.com. We reply promptly.",
+      // Contacto
+      "Cotización y contacto": "Quote & contact",
+      "Solicita tu cotización": "Request your quote",
+      "Completa el formulario y se abrirá WhatsApp con tu mensaje listo para enviar. Te respondemos a la brevedad.": "Fill out the form and WhatsApp will open with your message ready to send. We reply promptly.",
+      "Nombre y empresa": "Name and company",
+      "Teléfono (opcional)": "Phone (optional)",
+      "Cuéntanos sobre tu producto o proyecto…": "Tell us about your product or project…",
+      "Importación / Exportación": "Import / Export",
+      "Producto antibacterial": "Antibacterial product",
+      "Producto disponible (matriz lista)": "Available product (mold ready)",
+      "Otro / proyecto a medida": "Other / custom project",
+      "WhatsApp": "WhatsApp",
+      "Información de contacto": "Contact information",
+      "TELÉFONO / WHATSAPP": "PHONE / WHATSAPP",
+      "CORREO": "EMAIL",
+      "INSTAGRAM": "INSTAGRAM",
+      "CHILE 🇨🇱 · VER EN MAPS": "CHILE 🇨🇱 · VIEW ON MAPS",
+      "EE.UU. 🇺🇸 · VER EN MAPS": "USA 🇺🇸 · VIEW ON MAPS",
+      "Abrir en Google Maps": "Open in Google Maps",
+      "Atención a todo Chile · Importaciones y exportaciones CL–EE.UU.": "Serving all of Chile · Imports and exports CL–USA.",
+      // Footer
+      "Ingeniería Verde en plástico y caucho. Matricería, inyección, extrusión y coextrusión con compuesto antibacterial certificado. Chile y EE.UU.": "Green Engineering in plastic and rubber. Tooling, injection, extrusion and coextrusion with a certified antibacterial compound. Chile & USA.",
+      "Navegación": "Navigation",
+      "Santiago, Chile — Ver mapa": "Santiago, Chile — View map",
+      "Cotizar por WhatsApp →": "Quote via WhatsApp →",
+      "Cotizar por correo →": "Quote via email →",
+      "Enviar solicitud →": "Send request →",
+      "Ingeniería Verde ♻️ · Hecho en Chile": "Green Engineering ♻️ · Made in Chile",
+    };
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    this.applyLang(this.state.lang);
+  }
+
+  toggleLangMenu = () => this.setState((s) => ({ langMenuOpen: !s.langMenuOpen }));
+
+  setLang = (lang) => {
+    try { localStorage.setItem("pm-lang", lang); } catch (e) {}
+    this.setState({ lang, langMenuOpen: false });
+  };
+
+  get i18nReverse() {
+    if (this._rev) return this._rev;
+    const rev = {};
+    const d = this.i18n;
+    for (const k in d) { if (rev[d[k]] == null) rev[d[k]] = k; }
+    this._rev = rev;
+    return rev;
+  }
+
+  applyLang(lang) {
+    const map = lang === "en" ? this.i18n : this.i18nReverse;
+    const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
+    let n;
+    while ((n = walker.nextNode())) {
+      const raw = n.nodeValue;
+      if (!raw || !raw.trim()) continue;
+      const key = raw.trim();
+      if (map[key] != null && map[key] !== key) n.nodeValue = raw.replace(key, map[key]);
+    }
+    document.querySelectorAll("[placeholder]").forEach((el) => {
+      const key = (el.getAttribute("placeholder") || "").trim();
+      if (map[key] != null) el.setAttribute("placeholder", map[key]);
+    });
+    document.querySelectorAll("#contacto select option").forEach((op) => {
+      const key = (op.textContent || "").trim();
+      if (map[key] != null) op.textContent = map[key];
+    });
+    document.documentElement.lang = lang;
+  }
+
+  onHeroVideo = (e) => {
+    const file = e.target.files && e.target.files[0];
+    if (!file) return;
+    const v = this._video || document.querySelector("[data-hero-video]");
+    if (!v) return;
+    v.src = URL.createObjectURL(file);
+    v.muted = true;
+    v.load();
+    v.style.opacity = "1";
+    v.play && v.play().catch(() => {});
+    const reader = new FileReader();
+    reader.onload = () => { try { localStorage.setItem("pm-hero-video", reader.result); } catch (err) {} };
+    reader.readAsDataURL(file);
+  };
+
+  _quoteData(target) {
+    const form = target.form || (target.closest && target.closest("form"));
+    const f = form ? form.elements : {};
+    const nombre = (f.nombre && f.nombre.value) || "";
+    const tel = (f.telefono && f.telefono.value) || "";
+    const interes = (f.interes && f.interes.value) || "";
+    const mensaje = (f.mensaje && f.mensaje.value) || "";
+    return { nombre, tel, interes, mensaje };
+  }
+
+  // Botón principal "Enviar solicitud": abre WhatsApp y el correo a la vez
+  onSubmitQuote = (e) => {
+    e.preventDefault();
+    const { nombre, tel, interes, mensaje } = this._quoteData(e.target);
+    const msg =
+      "Hola PlasticMarket, quiero solicitar una cotización.\n" +
+      "• Nombre/empresa: " + nombre + "\n" +
+      (tel ? "• Teléfono: " + tel + "\n" : "") +
+      "• Interés: " + interes + "\n" +
+      "• Mensaje: " + mensaje;
+    window.open(this.wa(msg), "_blank");
+    const cuerpo =
+      "Hola PlasticMarket, quiero solicitar una cotización.\n\n" +
+      "Nombre/empresa: " + nombre + "\n" +
+      (tel ? "Teléfono: " + tel + "\n" : "") +
+      "Interés: " + interes + "\n" +
+      "Mensaje: " + mensaje + "\n";
+    setTimeout(() => {
+      window.location.href = this.mail("Solicitud de cotización — " + (interes || "General"), cuerpo);
+    }, 400);
+  };
+
+  // Solo WhatsApp
+  onSubmitQuoteWa = (e) => {
+    e.preventDefault();
+    const { nombre, tel, interes, mensaje } = this._quoteData(e.target);
+    const msg =
+      "Hola PlasticMarket, quiero solicitar una cotización.\n" +
+      "• Nombre/empresa: " + nombre + "\n" +
+      (tel ? "• Teléfono: " + tel + "\n" : "") +
+      "• Interés: " + interes + "\n" +
+      "• Mensaje: " + mensaje;
+    window.open(this.wa(msg), "_blank");
+  };
+
+  onSubmitEmail = (e) => {
+    e.preventDefault();
+    const form = e.target.form || (e.target.closest && e.target.closest("form"));
+    const f = form ? form.elements : {};
+    const nombre = (f.nombre && f.nombre.value) || "";
+    const tel = (f.telefono && f.telefono.value) || "";
+    const interes = (f.interes && f.interes.value) || "";
+    const mensaje = (f.mensaje && f.mensaje.value) || "";
+    const cuerpo =
+      "Hola PlasticMarket, quiero solicitar una cotización.\n\n" +
+      "Nombre/empresa: " + nombre + "\n" +
+      (tel ? "Teléfono: " + tel + "\n" : "") +
+      "Interés: " + interes + "\n" +
+      "Mensaje: " + mensaje + "\n";
+    window.location.href = this.mail("Solicitud de cotización — " + (interes || "General"), cuerpo);
+  };
+
+  renderVals() {
+    const products = [
+      {"img":"assets/prod-gorra.jpg","title":"Gorra + Casco Protector","desc":"Protección y seguridad con impresión digital y logo corporativo.","tag":"[ seguridad ]","alt":"Gorra con casco protector plástico","detail":"Gorra con casco protector interno de alta resistencia. Combina protección y seguridad con la comodidad de una gorra, personalizable con impresión digital sobre relieve y logo corporativo.","features":["Protección y seguridad","Impresión digital sobre relieve con logo corporativo","Alta resistencia","Colores y dimensiones/medidas personalizadas"]},
+      {"img":"assets/prod-pisos.jpg","title":"Pisos antideslizantes / antifatiga","desc":"Escurridor de agua para cocinas industriales y áreas húmedas.","tag":"[ alimentación ]","alt":"Pisos plásticos antideslizantes y antifatiga","detail":"Pisos modulares antideslizantes y antifatiga que escurren el agua. Ideales para cocinas industriales, restaurantes y áreas húmedas, con larga duración y medidas especiales.","features":["Seguridad y protección","Larga duración","Medidas especiales","Colores y dimensiones/medidas personalizadas"]},
+      {"img":"assets/prod-estacas.jpg","title":"Estacas para minería","desc":"Resistencia y durabilidad para faenas mineras.","tag":"[ minería ]","alt":"Estacas plásticas para minería","detail":"Estacas plásticas de estructura de alta calidad para minería, con gran resistencia y durabilidad. Disponibles en colores y medidas especiales según la faena.","features":["Resistencia y durabilidad","Colores y medidas especiales","Estructura de alta calidad","Colores y dimensiones/medidas personalizadas"]},
+      {"img":"assets/prod-malla.jpg","title":"Soporte malla antihelada","desc":"Estructura y estabilidad para malla antihelada en cultivos.","tag":"[ agricultura ]","alt":"Soporte plástico para malla antihelada","detail":"Aporta estructura, estabilidad y soporte a la malla antihelada. Con diseño de filtro UV, alta resistencia y medidas especiales según el tipo de siembra.","features":["Medidas especiales según siembra","Diseño con filtro UV","Alta resistencia y durabilidad","Colores y dimensiones/medidas personalizadas"]},
+      {"img":"assets/prod-tabla-cocina.jpg","title":"Tabla de cocina","desc":"Set de 5 tablas multicolor con compuesto antibacterial.","tag":"[ alimentación ]","alt":"Set de tablas de cocina multicolor","detail":"Set de 5 tablas de cocina multicolor con compuesto antibacterial, para evitar la contaminación cruzada. Personalizables con impresión digital y logo corporativo.","features":["Impresión digital","Logo corporativo","Compuesto antibacterial","Set de 5 tablas multicolor","Colores y dimensiones/medidas personalizadas"]},
+      {"img":"assets/prod-tabla-multiuso.jpg","title":"Tabla multiuso","desc":"Superficie multiuso con compuesto antibacterial para salud e industria.","tag":"[ institucional ]","alt":"Tabla multiuso plástica antibacterial","detail":"Tabla multiuso con compuesto antibacterial, ideal para clínicas, laboratorios y espacios institucionales. Personalizable con impresión digital y logo corporativo.","features":["Impresión digital","Logo corporativo","Compuesto antibacterial","Colores y dimensiones/medidas personalizadas"]},
+      {"img":"assets/prod-recubrimiento.jpg","title":"Recubrimiento caucho / plástico / metal","desc":"Recubre y protege el metal, aislando la electricidad.","tag":"[ industrial ]","alt":"Recubrimiento de caucho y plástico sobre metal","detail":"Recubrimiento de caucho o plástico sobre metal que protege la pieza, aísla la electricidad y aumenta la resistencia química. Disponible en colores y espesores personalizados.","features":["Protege el metal","Aísla la electricidad","Aumenta la resistencia química","Colores y espesor personalizado","Colores y dimensiones/medidas personalizadas"]},
+      {"img":"assets/prod-soporte-vidrio.jpg","title":"Soporte medicamento de vidrio","desc":"Soporte antibacterial para frascos de vidrio en salud.","tag":"[ salud ]","alt":"Soporte plástico antibacterial para medicamento de vidrio","detail":"Soporte para medicamentos de vidrio con compuesto antibacterial, que aporta seguridad y protección al frasco. Fácil de ubicar y utilizar en entornos clínicos.","features":["Compuesto antibacterial","Seguridad y protección","Fácil de ubicar y utilizar","Colores y dimensiones/medidas personalizadas"]},
+      {"img":"assets/prod-topes.jpg","title":"Topes para puertas","desc":"Evitan daños en puertas y muros. Distintos colores.","tag":"[ hogar ]","alt":"Topes plásticos para puertas en distintos colores","detail":"Topes para puertas que evitan daños en muros y puertas. Disponibles en diferentes colores y medidas especiales según la instalación.","features":["Evita daños","Diferentes colores","Medidas especiales","Colores y dimensiones/medidas personalizadas"]},
+      {"img":"assets/prod-ffaa.jpg","title":"Dispositivos plásticos para FF.AA.","desc":"Estructura para gorras de Armada, Carabineros, Ejército y Gendarmería de Chile.","tag":"[ institucional ]","alt":"Dispositivos plásticos para estructura de gorras de las FF.AA. de Chile","detail":"Dispositivos plásticos de estructura flexible diseñados para gorras institucionales. Utilizados por Armada de Chile, Carabineros de Chile, Ejército Militar Chileno y Gendarmería de Chile.","features":["Estructura flexible","Diseño para estructura de gorras","Colores según oficio","Colores y dimensiones/medidas personalizadas"]},
+    ].map((p, i) => ({
+      ...p,
+      slot: "prod-" + i,
+      openInfo: () => this.setState({ modalId: i }),
+      wa: this.wa("Hola, me interesa el producto: " + p.title + " (matriz lista para diseño inmediato). Quisiera cotizar."),
+      email: this.mail("Cotización: " + p.title, "Hola PlasticMarket,\n\nMe interesa el producto \"" + p.title + "\" (matriz lista para diseño inmediato). Quisiera solicitar una cotización.\n\nNombre/empresa:\nCantidad estimada:\nDetalles:\n"),
+    }));
+
+    const reviews = [
+      { text: "Escribe aquí la opinión real de tu cliente. Puedes copiarla desde tus reseñas de Google, correos o WhatsApp.", name: "Nombre del cliente", role: "Empresa / sector", initial: "•" },
+      { text: "Escribe aquí la opinión real de tu cliente. Puedes copiarla desde tus reseñas de Google, correos o WhatsApp.", name: "Nombre del cliente", role: "Empresa / sector", initial: "•" },
+      { text: "Escribe aquí la opinión real de tu cliente. Puedes copiarla desde tus reseñas de Google, correos o WhatsApp.", name: "Nombre del cliente", role: "Empresa / sector", initial: "•" },
+    ];
+
+    const brands = ["[ logo ]", "[ logo ]", "[ logo ]", "[ logo ]", "[ logo ]", "[ logo ]", "[ logo ]", "[ logo ]"];
+    const brandsLoop = brands.concat(brands);
+
+    const faqSrc = [
+      { q: "¿Fabrican productos a medida?", a: "Sí. Contamos con matricería propia para diseñar y fabricar tu pieza desde cero, además de productos con matriz ya disponible para diseño inmediato." },
+      { q: "¿Qué materiales trabajan?", a: "Trabajamos PP (polipropileno), PET, PC (policarbonato), ABS, PHDP, PAI, PVC y Caucho TR (termoplástico reforzado), además de fabricación de compuestos especiales a medida, incluyendo nuestro compuesto antibacterial certificado." },
+      { q: "¿Qué hace único al compuesto antibacterial?", a: "La protección se incorpora en la base del material, no solo en la superficie. Somos los únicos en Chile con este compuesto certificado, ideal para salud y alimentación." },
+      { q: "¿Realizan importaciones y exportaciones?", a: "Sí. Operamos en Chile y como PlasticMarket LLC en EE.UU., abasteciendo proyectos con logística y volumen a medida." },
+      { q: "¿Cómo solicito una cotización?", a: "Por WhatsApp desde cualquier botón del sitio, completando el formulario de contacto, o escribiendo a ventas@plastic-market.com o contacto@plastic-market.com. Respondemos a la brevedad." },
+    ];
+    const faqs = faqSrc.map((f, i) => ({
+      q: f.q, a: f.a,
+      open: this.state.openIdx === i,
+      sign: this.state.openIdx === i ? "–" : "+",
+      toggle: () => this.toggleFaq(i),
+    }));
+
+    return {
+      mobileOpen: this.state.mobile,
+      logoOffsetY: this.props.logoOffsetY ?? 0,
+      toggleMobile: () => this.setState((s) => ({ mobile: !s.mobile })),
+      closeMobile: () => this.setState({ mobile: false }),
+      waGeneral: this.wa("Hola PlasticMarket, quiero solicitar una cotización."),
+      waMatriceria: this.wa("Hola, quiero cotizar el servicio de Matricería (diseño y fabricación de moldes)."),
+      waInyeccion: this.wa("Hola, quiero cotizar el servicio de Inyección de plástico/caucho."),
+      waExtrusion: this.wa("Hola, quiero cotizar el servicio de Extrusión."),
+      waCoextrusion: this.wa("Hola, quiero cotizar el servicio de Coextrusión."),
+      waAntibacterial: this.wa("Hola, quiero información sobre productos con compuesto antibacterial certificado."),
+      waProducto: this.wa("Hola, quisiera recibir el catálogo de productos disponibles."),
+      mailGeneral: this.mail("Solicitud de cotización", "Hola PlasticMarket,\n\nQuiero solicitar una cotización.\n\nNombre/empresa:\nInterés:\nDetalles:\n"),
+      mailMatriceria: this.mail("Cotización: Matricería", "Hola PlasticMarket,\n\nQuiero cotizar el servicio de Matricería (diseño y fabricación de moldes).\n\nNombre/empresa:\nDetalles del molde/proyecto:\n"),
+      mailInyeccion: this.mail("Cotización: Inyección", "Hola PlasticMarket,\n\nQuiero cotizar el servicio de Inyección de plástico/caucho.\n\nNombre/empresa:\nPieza / material / cantidad:\n"),
+      mailExtrusion: this.mail("Cotización: Extrusión", "Hola PlasticMarket,\n\nQuiero cotizar el servicio de Extrusión.\n\nNombre/empresa:\nPerfil/lámina/film, medidas y cantidad:\n"),
+      mailCoextrusion: this.mail("Cotización: Coextrusión", "Hola PlasticMarket,\n\nQuiero cotizar el servicio de Coextrusión.\n\nNombre/empresa:\nRequerimiento multicapa:\n"),
+      mailAntibacterial: this.mail("Consulta: Compuesto antibacterial", "Hola PlasticMarket,\n\nQuiero información/cotización sobre productos con compuesto antibacterial certificado.\n\nNombre/empresa:\nÁrea de uso:\nDetalles:\n"),
+      mailProducto: this.mail("Solicitud de catálogo", "Hola PlasticMarket,\n\nQuisiera recibir el catálogo de productos disponibles.\n\nNombre/empresa:\n"),
+      onSubmitQuote: this.onSubmitQuote,
+      onSubmitQuoteWa: this.onSubmitQuoteWa,
+      onSubmitEmail: this.onSubmitEmail,
+      onHeroVideo: this.onHeroVideo,
+      langCurrent: this.state.lang === "es" ? "ES" : "EN",
+      langMenuOpen: this.state.langMenuOpen,
+      toggleLangMenu: this.toggleLangMenu,
+      langOptions: [
+        { code: "es", flag: "🇪🇸", label: "Español" },
+        { code: "en", flag: "🇺🇸", label: "English" },
+      ].map((o) => ({ ...o, bg: this.state.lang === o.code ? "#EDF5E3" : "#fff", select: () => this.setLang(o.code) })),
+      prodPrev: () => this.scrollTrack("pm-prod-track", -1),
+      prodNext: () => this.scrollTrack("pm-prod-track", 1),
+      antiPrev: () => this.scrollTrack("pm-anti-track", -1),
+      antiNext: () => this.scrollTrack("pm-anti-track", 1),
+      modalOpen: this.state.modalId != null,
+      modal: this.state.modalId != null ? products[this.state.modalId] : {},
+      closeModal: () => this.setState({ modalId: null }),
+      stop: (e) => e.stopPropagation(),
+      products, reviews, brands, brandsLoop, faqs,
+    };
+  }
+}
+</script>
+</body>
+</html>
