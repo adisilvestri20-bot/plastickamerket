@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Bloquear parámetros y áreas sin valor SEO
+Disallow: /*?*
+Disallow: /carrito
+Disallow: /checkout
+Disallow: /gracias
+
+Sitemap: https://plasticmarket.cl/sitemap.xml

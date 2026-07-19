@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://plasticmarket.cl/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es-cl" href="https://plasticmarket.cl/"/>
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://plasticmarket.com/"/>
+  </url>
+  <url><loc>https://plasticmarket.cl/nosotros</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://plasticmarket.cl/servicios/matriceria</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://plasticmarket.cl/servicios/inyeccion</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://plasticmarket.cl/servicios/extrusion</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://plasticmarket.cl/servicios/coextrusion</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://plasticmarket.cl/compuesto-antibacterial</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://plasticmarket.cl/productos</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://plasticmarket.cl/importaciones-exportaciones</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://plasticmarket.cl/contacto</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://plasticmarket.cl/blog</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+</urlset>
